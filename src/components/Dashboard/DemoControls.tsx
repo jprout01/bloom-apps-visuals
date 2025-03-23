@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Check, Paperclip, Play, Plus, Refresh, X } from 'lucide-react';
+import { Check, Paperclip, Play, Plus, RefreshCw, X } from 'lucide-react';
 import { toast } from 'sonner';
 import { JobStatus } from '@/data/mockData';
 
@@ -86,7 +86,7 @@ const DemoControls: React.FC<DemoControlsProps> = ({
               });
             }}
           >
-            <Refresh className="h-4 w-4 mr-1" /> Reset Demo
+            <RefreshCw className="h-4 w-4 mr-1" /> Reset Demo
           </Button>
         </div>
       </div>
